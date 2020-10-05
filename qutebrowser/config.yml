@@ -15,3 +15,5 @@ colors:
 fonts:
         default_family: 'VictorMono Nerd Font Mono'
         default_size: 10pt
+url:
+        searchengines: '{"DEFAULT": "https://runnaroo.com/search?term={}"}'

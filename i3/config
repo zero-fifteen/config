@@ -193,7 +193,7 @@ bar {
     urgent_workspace   #FF5555 #FF5555 #F8F8F2
     binding_mode       #FF5555 #FF5555 #F8F8F2
   }
-  status_command i3blocks
+  status_command i3status
 }
 
 bindsym $mod+d exec "dmenu_run -nf '#F8F8F2' -nb '#282A36' -sb '#6272A4' -sf '#F8F8F2' -fn 'VictorMono Nerd Font Mono:size=10' -p 'dmenu%'"
