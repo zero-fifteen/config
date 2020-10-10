@@ -14,6 +14,8 @@ def dict_attrs(obj, path=''):
 for k, v in dict_attrs(yaml_data):
     config.set(k, v)
 
+config.set("url.searchengines", {"DEFAULT": "https://runnaroo.com/search?term={}"})
+
 config.bind("xf", "hint links spawn mpv {hint-url}")
 
 dracula.draw.blood(c, {
